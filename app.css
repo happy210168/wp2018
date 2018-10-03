@@ -4,15 +4,14 @@ body{
 #sitebody{
   height:680px;
   width:100%;
-  margin:0 auto;
   font-size:16px;
   font-family:cursive;
 }
 #header{
   background-color:#618E5B;
-  height:38px;
+  height:35px;
+  width:100%;
   text-align:center;
-  line-height:38px;
 }
 #sidebar_left{
   background-color:#618E5B;
@@ -23,9 +22,55 @@ body{
 }
 #sidebar_right{
   background-color:#618E5B;
-  width:5%;
+  width:3%;
   height:610px;
   float:right;
+}
+#content{
+  height:610px;
+  margin-left=60px;
+  width:95%;
+  background-color:#E8EFAA;
+  opacity:0;
+  transition:opacity 1s;
+}
+#content_left{
+  border:3.5px #ccc solid;
+  background-color:#E8EFAA; 
+  width:46.5%;
+  height:606px;
+  float:left;
+  background-image:url("https://cdn0-digiphoto-techbang.pixfs.net/system/images/47868/original/8e81e801d91064ff2ec0b626f0b8a532.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+#content_right{
+  float:right;
+  width:46.5%;
+  height:606px;
+  border:4px #ccc solid;
+  background-color:#E8EFAA;
+  text-align:center;
+}
+
+#text1{
+  font-size:36px;
+}
+
+#text1-1{
+  margin-left:50px;
+  font-size:16px;
+  text-align:left;
+}
+
+
+#footer{
+  clear:both;
+  background-color:#618E5B;
+  height:35px;
+  text-align:center;
+  line-height:35px;
 }
 
 #page1{
@@ -140,53 +185,4 @@ body{
   background-color:#395435;
   //border:2px #ccc solid;
 }
-
-#content_left{
-  padding:10px;
-  margin-left:3%;
-  margin-right:0;
-  width:47%;
-  height:610px;
-  border:2px #ccc solid;
-  background-color:#F2FFF2;
-  background-image:url("https://cdn0-digiphoto-techbang.pixfs.net/system/images/47868/original/8e81e801d91064ff2ec0b626f0b8a532.jpg");
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
-}
-
-#text1{
-  font-size:36px;
-}
-
-#text1-1{
-  margin-left:50px;
-  font-size:16px;
-  text-align:left;
-}
-
-#content_right{
-  padding:10px;
-  position:relative;
-  top:-634px;
-  left:50%;
-  border:2px #ccc solid;
-  margin-left:0;
-  margin-right:5%;
-  width:45%;
-  height:610px;
-  background-color:#E8EFAA;
-  text-align:center;
-}
-
-#footer{
-  position:relative;
-  top:-610px;
-  clear:both;
-  background-color:#618E5B;
-  height:35px;
-  text-align:center;
-  line-height:35px;
-}
-
 

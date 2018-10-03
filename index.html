@@ -3,6 +3,17 @@
   <head>
     <title>My Page</title>
     <link rel=stylesheet type="text/css" href="app.css">
+    <script type="text/javascript">
+      window.onload=function(){
+        var content=document.getElementById("content");
+        content.style.opacity=1;
+        var content_left=doucument.getElementById("content_left");
+        content_left.style.opacity=1;
+        var content_right=doucument.getElementById("content_right");
+        content_right.style.opacity=1;
+      };
+    </script>
+
   </head>
   <body>          
     <div id="sitebody">
@@ -19,12 +30,14 @@
         <p id="menu">MENU</p>
         <p id="about">About</p>
       </div>
-      <div id="content_left">
-      </div>
-      <div id="content_right">
-        <p id="text1">My page</p>
-        <p id="text1-1">Hello, welcome to my page</p>
-      </div>
+      <div id="content">
+        <div id="content_left">
+        </div>
+        <div id="content_right">
+          <p id="text1">My page</p>
+          <p id="text1-1">Hello, welcome to my page</p>
+        </div>
+      </div>  
       <div id="footer"></div>
     </div>
   </body>
